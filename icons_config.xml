@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hiyuki Theme - Icon Pack Configuration -->
+<icon_pack>
+    <info>
+        <name>Hiyuki Icons</name>
+        <description>Modern icon set inspired by Wuthering Waves</description>
+        <version>1.0</version>
+        <author>Hiyuki Design Team</author>
+    </info>
+    
+    <!-- Icon Styles -->
+    <styles>
+        <style name="default">
+            <background_color>#1E2936</background_color>
+            <background_shape>rounded_square</background_shape>
+            <corner_radius>20</corner_radius>
+            <shadow_enabled>true</shadow_enabled>
+            <shadow_color>#00000033</shadow_color>
+        </style>
+        
+        <style name="minimal">
+            <background_color>transparent</background_color>
+            <scale>0.9</scale>
+            <shadow_enabled>false</shadow_enabled>
+        </style>
+        
+        <style name="neon">
+            <background_color>#242C35</background_color>
+            <border_color>#00D9FF</border_color>
+            <border_width>2</border_width>
+            <glow_enabled>true</glow_enabled>
+            <glow_color>#00D9FF44</glow_color>
+        </style>
+    </styles>
+    
+    <!-- Icon Colors -->
+    <colors>
+        <primary>#00D9FF</primary>
+        <secondary>#9C27B0</secondary>
+        <accent>#00E5FF</accent>
+        <background>#1E2936</background>
+    </colors>
+    
+    <!-- Icon Themes -->
+    <themes>
+        <theme name="Hiyuki-Dark">
+            <description>Dark theme with cyan accents</description>
+            <background_color>#0F1419</background_color>
+            <icon_color>#FFFFFF</icon_color>
+            <accent_color>#00D9FF</accent_color>
+        </theme>
+        
+        <theme name="Hiyuki-Neon">
+            <description>Neon theme with glowing effects</description>
+            <background_color>#0F1419</background_color>
+            <icon_color>#FFFFFF</icon_color>
+            <accent_color>#00E5FF</accent_color>
+            <glow_enabled>true</glow_enabled>
+        </theme>
+        
+        <theme name="Hiyuki-Minimal">
+            <description>Minimal clean design</description>
+            <background_color>transparent</background_color>
+            <icon_color>#FFFFFF</icon_color>
+            <accent_color>#00D9FF</accent_color>
+        </theme>
+    </themes>
+    
+    <!-- Icon Mappings -->
+    <icon_map>
+        <!-- System Apps -->
+        <icon app="com.android.settings" theme="neon"/>
+        <icon app="com.android.contacts" theme="default"/>
+        <icon app="com.android.mms" theme="default"/>
+        <icon app="com.miui.home" theme="minimal"/>
+        <icon app="com.miui.notification" theme="default"/>
+        
+        <!-- Popular Apps (examples) -->
+        <icon app="com.google.android.apps.genie.geniewidget" theme="default"/>
+        <icon app="com.spotify.music" theme="neon"/>
+        <icon app="com.google.android.youtube" theme="default"/>
+    </icon_map>
+</icon_pack>
