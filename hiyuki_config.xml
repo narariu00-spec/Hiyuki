@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hiyuki Theme - Wuthering Waves Inspired Configuration -->
+<theme_config>
+    <!-- Theme Information -->
+    <theme_info>
+        <name>Hiyuki - Wuthering Waves</name>
+        <version>1.0</version>
+        <author>Hiyuki Design Team</author>
+        <description>A premium MIUI theme inspired by Wuthering Waves</description>
+    </theme_info>
+    
+    <!-- System UI Colors -->
+    <system_ui>
+        <statusbar_background>#0F1419</statusbar_background>
+        <statusbar_text>#FFFFFF</statusbar_text>
+        <statusbar_icon>#FFFFFF</statusbar_icon>
+        <navigationbar_background>#0F1419</navigationbar_background>
+        <navigationbar_text>#FFFFFF</navigationbar_text>
+        <navigation_icon>#00D9FF</navigation_icon>
+    </system_ui>
+    
+    <!-- Lockscreen Configuration -->
+    <lockscreen>
+        <background_type>image</background_type>
+        <background_opacity>0.9</background_opacity>
+        <time_color>#FFFFFF</time_color>
+        <time_size>48sp</time_size>
+        <date_color>#B3B3B3</date_color>
+        <widget_color>#00D9FF</widget_color>
+        <unlock_text>向上滑动解锁 / Swipe up to unlock</unlock_text>
+        <unlock_text_color>#B3B3B3</unlock_text_color>
+    </lockscreen>
+    
+    <!-- Homescreen Configuration -->
+    <homescreen>
+        <icon_size>48dp</icon_size>
+        <icon_text_color>#FFFFFF</icon_text_color>
+        <icon_text_size>12sp</icon_text_size>
+        <folder_background>#1E2936</folder_background>
+        <folder_color>#00D9FF</folder_color>
+        <shortcut_color>#00D9FF</shortcut_color>
+    </homescreen>
+    
+    <!-- Application Drawer -->
+    <app_drawer>
+        <background>#0F1419</background>
+        <icon_text_color>#FFFFFF</icon_text_color>
+        <divider_color>#2D3A45</divider_color>
+    </app_drawer>
+    
+    <!-- Control Center -->
+    <control_center>
+        <background>#1A1F26</background>
+        <quick_tile_background>#242C35</quick_tile_background>
+        <quick_tile_active>#00D9FF</quick_tile_active>
+        <text_color>#FFFFFF</text_color>
+    </control_center>
+    
+    <!-- Notification Styling -->
+    <notifications>
+        <background>#1E2936</background>
+        <text_primary>#FFFFFF</text_primary>
+        <text_secondary>#B3B3B3</text_secondary>
+        <accent_color>#00D9FF</accent_color>
+    </notifications>
+    
+    <!-- Settings App -->
+    <settings>
+        <background>#0F1419</background>
+        <category_background>#1A1F26</category_background>
+        <item_background>#242C35</item_background>
+        <text_color>#FFFFFF</text_color>
+        <accent_color>#00D9FF</accent_color>
+    </settings>
+    
+    <!-- Animation Settings -->
+    <animations>
+        <enable_transitions>true</enable_transitions>
+        <transition_duration>300</transition_duration>
+        <lockscreen_animation>fade</lockscreen_animation>
+        <app_open_animation>scale</app_open_animation>
+    </animations>
+    
+    <!-- Wallpaper Settings -->
+    <wallpaper>
+        <blur_enabled>true</blur_enabled>
+        <blur_amount>12</blur_amount>
+        <dim_amount>0.3</dim_amount>
+    </wallpaper>
+</theme_config>

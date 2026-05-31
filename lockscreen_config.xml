@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hiyuki Theme - Lockscreen Configuration -->
+<lockscreen_config>
+    <general>
+        <theme_name>Hiyuki - Wuthering Waves</theme_name>
+        <style>dark</style>
+        <blur_enabled>true</blur_enabled>
+        <blur_radius>12</blur_radius>
+    </general>
+    
+    <time_display>
+        <format>HH:mm</format>
+        <font_size>48sp</font_size>
+        <font_color>#FFFFFF</font_color>
+        <font_family>sans-serif-light</font_family>
+        <shadow_enabled>true</shadow_enabled>
+        <shadow_color>#00000080</shadow_color>
+    </time_display>
+    
+    <date_display>
+        <format>MMMM dd, yyyy</format>
+        <font_size>16sp</font_size>
+        <font_color>#B3B3B3</font_color>
+        <font_family>sans-serif</font_family>
+    </date_display>
+    
+    <weather_widget>
+        <enabled>true</enabled>
+        <text_color>#FFFFFF</text_color>
+        <icon_color>#00D9FF</icon_color>
+        <position>top_right</position>
+    </weather_widget>
+    
+    <notifications>
+        <enabled>true</enabled>
+        <background_color>#1E293644</background_color>
+        <text_color>#FFFFFF</text_color>
+        <accent_color>#00D9FF</accent_color>
+        <max_visible>3</max_visible>
+    </notifications>
+    
+    <unlock_indicator>
+        <type>swipe_up</type>
+        <text>向上滑动解锁 / Swipe up to unlock</text>
+        <text_color>#B3B3B3</text_color>
+        <indicator_color>#00D9FF</indicator_color>
+        <animation>pulse</animation>
+    </unlock_indicator>
+    
+    <shortcuts>
+        <emergency_call>enabled</emergency_call>
+        <camera_shortcut>enabled</camera_shortcut>
+        <shortcut_color>#00D9FF</shortcut_color>
+    </shortcuts>
+    
+    <animations>
+        <transition_effect>fade</transition_effect>
+        <unlock_animation>scale</unlock_animation>
+        <notification_animation>slide</notification_animation>
+        <animation_duration>300</animation_duration>
+    </animations>
+</lockscreen_config>

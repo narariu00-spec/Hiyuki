@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MIUI System UI Colors - Hiyuki Theme -->
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#00D9FF</color>
+    <color name="primary_color_dark">#0099CC</color>
+    
+    <!-- Status Bar -->
+    <color name="status_bar_background">#0F1419</color>
+    <color name="status_bar_text_color">#FFFFFF</color>
+    
+    <!-- Navigation Bar -->
+    <color name="navigation_bar_background">#0F1419</color>
+    <color name="navigation_bar_text_color">#FFFFFF</color>
+    
+    <!-- System -->
+    <color name="system_background">#0F1419</color>
+    <color name="system_surface">#1E2936</color>
+    <color name="system_accent">#00D9FF</color>
+    
+    <!-- Text -->
+    <color name="text_color_primary">#FFFFFF</color>
+    <color name="text_color_secondary">#B3B3B3</color>
+    <color name="text_color_hint">#808080</color>
+    
+    <!-- Dividers and Borders -->
+    <color name="divider_color">#2D3A45</color>
+    <color name="border_color">#3A4A55</color>
+    
+    <!-- Buttons and Controls -->
+    <color name="button_color">#00D9FF</color>
+    <color name="button_text_color">#000000</color>
+    <color name="control_active_color">#00D9FF</color>
+    <color name="control_inactive_color">#404A50</color>
+    
+    <!-- Alerts and Status -->
+    <color name="alert_error">#FF5252</color>
+    <color name="alert_warning">#FFA500</color>
+    <color name="alert_success">#00D084</color>
+    <color name="alert_info">#00BCD4</color>
+    
+    <!-- Overlays -->
+    <color name="overlay_dark">#CC000000</color>
+    <color name="overlay_light">#33FFFFFF</color>
+</resources>

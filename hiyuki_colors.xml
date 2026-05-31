@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hiyuki Theme Colors - Wuthering Waves inspired -->
+<theme>
+    <!-- Primary Colors - Cool Blue & Cyan palette -->
+    <color name="hiyuki_primary">#00D9FF</color>
+    <color name="hiyuki_primary_dark">#0099CC</color>
+    <color name="hiyuki_primary_light">#33E5FF</color>
+    
+    <!-- Secondary Colors - Purple & Violet -->
+    <color name="hiyuki_secondary">#9C27B0</color>
+    <color name="hiyuki_secondary_dark">#7B1FA2</color>
+    <color name="hiyuki_secondary_light">#BA68C8</color>
+    
+    <!-- Accent Colors - Neon effects -->
+    <color name="hiyuki_accent">#00E5FF</color>
+    <color name="hiyuki_accent_dark">#00ACC1</color>
+    
+    <!-- Background Colors - Dark theme -->
+    <color name="hiyuki_background">#0F1419</color>
+    <color name="hiyuki_background_secondary">#1A1F26</color>
+    <color name="hiyuki_background_tertiary">#242C35</color>
+    
+    <!-- Text Colors -->
+    <color name="hiyuki_text_primary">#FFFFFF</color>
+    <color name="hiyuki_text_secondary">#B3B3B3</color>
+    <color name="hiyuki_text_tertiary">#808080</color>
+    
+    <!-- UI Elements -->
+    <color name="hiyuki_divider">#2D3A45</color>
+    <color name="hiyuki_surface">#1E2936</color>
+    <color name="hiyuki_overlay">#000000</color>
+    <color name="hiyuki_overlay_alpha">#80000000</color>
+    
+    <!-- Status Colors -->
+    <color name="hiyuki_success">#00D084</color>
+    <color name="hiyuki_warning">#FFA500</color>
+    <color name="hiyuki_error">#FF5252</color>
+    <color name="hiyuki_info">#00BCD4</color>
+</theme>
