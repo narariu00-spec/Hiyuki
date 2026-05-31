@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PluginConfig>
+  <iconCalendar/>
+  <iconClock/>
+  <iconWeather/>
+  <lockscreen>
+    <advance_Notification y="800"/>
+    <advance_29797235_IumiUnlocker type="1" v="eq(#noticeDown,0)"/>
+  </lockscreen>
+  <desktopClock/>
+  <desktopWallpaper/>
+</PluginConfig>
